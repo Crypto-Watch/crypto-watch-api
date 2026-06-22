@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CryptoWatch.Api/CryptoWatch.Api.csproj" />
+    <Project Path="src/CryptoWatch.Application/CryptoWatch.Application.csproj" />
+    <Project Path="src/CryptoWatch.Domain/CryptoWatch.Domain.csproj" />
+    <Project Path="src/CryptoWatch.Infrastructure/CryptoWatch.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CryptoWatch.IntegrationTests/CryptoWatch.IntegrationTests.csproj" />
+    <Project Path="tests/CryptoWatch.UnitTests/CryptoWatch.UnitTests.csproj" />
+  </Folder>
+</Solution>

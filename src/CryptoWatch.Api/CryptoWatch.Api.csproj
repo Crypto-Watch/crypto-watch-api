@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoWatch.Domain\CryptoWatch.Domain.csproj" />
+    <ProjectReference Include="..\CryptoWatch.Application\CryptoWatch.Application.csproj" />
+    <ProjectReference Include="..\CryptoWatch.Infrastructure\CryptoWatch.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

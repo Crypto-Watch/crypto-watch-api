@@ -427,3 +427,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/.idea/
+
+# Local configuration
+src/CryptoWatch.Api/appsettings.Development.json
